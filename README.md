@@ -1,5 +1,7 @@
 # Python and Turtles
 
+You can join this assignment, [here](https://classroom.github.com/classrooms/20690068-introduction-to-public-policy-30550-uc-harris).  It is due October 12 at 1:30am.
+
 ### Excitement and Exercises!
 There is a 'skeleton' for each of these, in the assignment that you've checked out.  The answers are also all there.  It's up to you to calculate those answers.  Fill your code into the existing files, as indicated.
 
@@ -11,8 +13,8 @@ There is a 'skeleton' for each of these, in the assignment that you've checked o
 6. Make a Spirograph with turtles.  In a spirograph, a disks rolls of radius _r_ around the inside of a larger ring of radius _R_ without slipping.  The center of that disk thus describes yet another circle, of radius _R - r_.  By sticking a marker through a hole in the disk, one can draw pretty patterns.  (Look for a youtube video if this doesn't make sense, or isn't familiar.)  The critical point is this: if _ω_ is the rate at which the disk proceeds around the center of the ring, then the disk _itself_ rotates at a rate _-ω(R-r)/r_ times the rate.  Create a function that uses turtles to emulate a spirograph; then call that function several times to make something pretty.  
    1. Visit the [turtles documentation](https://docs.python.org/3.5/library/turtle.html) for the possible commands.  
    2. Start by drawing a circle with turtle _A_.
-   3. Next, ask turtle _B_ to proceed in a smaller circle around turtle _A_, using the _-(R-r)/r_ ratio.  Just as a reminder, if the distance from the center is _d_, the circles will be _x<sub>B</sub> = x<sub>A</sub> + d × cos(-θ * (R - r)/r)_, and the _y_ coordinate will be similar except for with a sine.
-   4. Call your function, to make pretty spirographs!  There is a line at the end of your skeleton, for saving the images.
+   3. Next, ask turtle _B_ to proceed in a smaller circle around turtle _A_.  Start by retrieving _A_'s position.  Then calculate the appropriate location for _B_ to head to, using the _-(R-r)/r_ ratio, and go to that location.  As a reminder, if the distance from the center is _d_, the circles will be _x<sub>B</sub> = x<sub>A</sub> + d × cos(-θ * (R - r)/r)_, and the _y_ coordinate will be similar except with a sine.
+   4. Call your complete spirograph several times, to make pretty spirographs!  There is a line at the end of your skeleton, for saving the images.
    5. As (optional) extensions, you could:
      1. Figure out how many loops around the big ring the disk has to make, before it starts repeating itself.
      2. Make a shading function, so that the colors shift either over time or as a function of the location or direction of the turtle.
