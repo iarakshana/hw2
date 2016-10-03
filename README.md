@@ -10,7 +10,8 @@ There is a 'skeleton' for each of these, in the assignment that you've checked o
 3. The number 175832868806 has no prime factors above 300.  Count the unique prime factors.  (Hint: first make a list of all the primes up to 300.  How would you express a prime in python?)
 4. There is a 1000-digit number, below.  If you multiply five consecutive digits, the largest value you can find is _9 × 5 × 9 × 9 × 9 = 32805_.  Multiplying 12 consecutive digits, what is the largest product you can find?
 5. Pythagorean triples have the property _a² + b² = c²_.  For instance the familiar 3, 4, 5 triangle has _3² + 4² = 9 + 16 = 25 = 5²_.  There is one pythagorean triple for which _a + b + c = 1000_.  Find the product _a × b × c_.
-6. In the _2×2_ gride shown below, the shortest path between two opposite corners is four units long.  There are six options for such a path (see below).  How many 'shortest paths' are there, for a _100×100_ grid?
+6. In the _2×2_ gride shown below, the shortest path between two opposite corners is four units long.  There are six options for such a path (see below).  For a _100×100_ grid, the shortest path is 200 units long.  How many such paths are there? </br>
+   Hints: What is necessary for a path to be a "shortest path"?
 7. A Collatz sequence is defined by:
    1. n → n/2 (for even n)
    2. n → 3n + 1 (for odd n)
