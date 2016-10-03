@@ -1,9 +1,9 @@
 # Python and Turtles
 
-You can join this assignment, [here](https://classroom.github.com/classrooms/20690068-introduction-to-public-policy-30550-uc-harris).  It is due October 12 at 1:30am.
+You can join this assignment, [here](https://classroom.github.com/assignment-invitations/39f415bb7b155b439c113add0f03f21c).  It is due October 12 at 1:30am.
 
 ### Excitement and Exercises!
-There is a 'skeleton' for each of these, in the assignment that you've checked out.  The answers are also all there.  It's up to you to calculate those answers.  Fill your code into the existing files, as indicated.
+There is a 'skeleton' for each of these, in the assignment that you've checked out.  The first five answers are also there, so that you can check your work.  It's just up to you to calculate those answers.  Fill your code into the existing files, as indicated.
 
 1. Find the 9th positive integer that is a multiple of 4, 13, 14, 26, and 50.
 2. Fibonacci numbers are defined by adding the previous two terms.  Starting with 1 and 1, that gives 1, 1, 2, 3, 5, 8, etc.  Find the sum of all Fibonnacci numbers divisible by 17 and below 1 billion.  (`while` and `if`, and `%`)
