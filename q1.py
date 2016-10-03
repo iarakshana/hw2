@@ -9,6 +9,6 @@ solution = 0
 
     
 # Check for the correct answer.
-print("#1 : 9th Multiple ::", "Correct." if solution == 72800 else ("Wrong: " + str(solution)))
+print("#1 : 9th Multiple ::", "Correct." if solution == 81900 else ("Wrong: " + str(solution)))
 
 

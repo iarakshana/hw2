@@ -7,7 +7,7 @@ import q1, q2, q3, q4, q4, q5, q6, q7
 class TestHW1(unittest.TestCase):
 
   def test_q1(self):
-    self.assertEqual(q1.solution, 72800)
+    self.assertEqual(q1.solution, 81900)
 
   def test_q2(self):
     self.assertEqual(q2.solution, 15129388)
