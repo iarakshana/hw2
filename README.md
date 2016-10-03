@@ -10,7 +10,16 @@ There is a 'skeleton' for each of these, in the assignment that you've checked o
 3. The number 175832868806 has no prime factors above 300.  Count the unique prime factors.  (Hint: first make a list of all the primes up to 300.  How would you express a prime in python?)
 4. There is a 1000-digit number, below.  If you multiply five consecutive digits, the largest value you can find is _9 × 5 × 9 × 9 × 9 = 32805_.  Multiplying 12 consecutive digits, what is the largest product you can find?
 5. Pythagorean triples have the property _a² + b² = c²_.  For instance the familiar 3, 4, 5 triangle has _3² + 4² = 9 + 16 = 25 = 5²_.  There is one pythagorean triple for which _a + b + c = 1000_.  Find the product _a × b × c_.
-6. Make a Spirograph with turtles.  In a spirograph, a disks rolls of radius _r_ around the inside of a larger ring of radius _R_ without slipping.  The center of that disk thus describes yet another circle, of radius _R - r_.  By sticking a marker through a hole in the disk, one can draw pretty patterns.  (Look for a youtube video if this doesn't make sense, or isn't familiar.)  The critical point is this: if _ω_ is the rate at which the disk proceeds around the center of the ring, then the disk _itself_ rotates at a rate _-ω(R-r)/r_ times the rate.  Create a function that uses turtles to emulate a spirograph; then call that function several times to make something pretty.  
+6. In the _2×2_ gride shown below, the shortest path between two opposite corners is four units long.  There are six options for such a path (see below).  For a _100×100_ grid, the shortest path is 200 units long.  How many such paths are there? </br>
+   Hints: What is necessary for a path to be a "shortest path"?
+7. A Collatz sequence is defined by:
+   1. n → n/2 (for even n)
+   2. n → 3n + 1 (for odd n)
+ 
+   Using this rule, for 13, we get: 13 → 40 → 20 → 10 → 5 → 16 → 8 → 4 → 2 → 1.
+   It is believed that the sequence ends at 1, for all numbers.  What is the longest Collatz sequence that _starts_ below 2 million?</br>
+   Bonus: Use precomputation and recursive functional calls.
+8. Make a Spirograph with turtles.  In a spirograph, a disks rolls of radius _r_ around the inside of a larger ring of radius _R_ without slipping.  The center of that disk thus describes yet another circle, of radius _R - r_.  By sticking a marker through a hole in the disk, one can draw pretty patterns.  (Look for a youtube video if this doesn't make sense, or isn't familiar.)  The critical point is this: if _ω_ is the rate at which the disk proceeds around the center of the ring, then the disk _itself_ rotates at a rate _-ω(R-r)/r_ times the rate.  Create a function that uses turtles to emulate a spirograph; then call that function several times to make something pretty.  
    1. Visit the [turtles documentation](https://docs.python.org/3.5/library/turtle.html) for the possible commands.  
    2. Start by drawing a circle with turtle _A_.
    3. Next, ask turtle _B_ to proceed in a smaller circle around turtle _A_.  Start by retrieving _A_'s position.  Then calculate the appropriate location for _B_ to head to, using the _-(R-r)/r_ ratio, and go to that location.  As a reminder, if the distance from the center is _d_, the circles will be _x<sub>B</sub> = x<sub>A</sub> + d × cos(-θ * (R - r)/r)_, and the _y_ coordinate will be similar except with a sine.
@@ -23,7 +32,7 @@ There is a 'skeleton' for each of these, in the assignment that you've checked o
 Just make sure it's in before Wednesday October 12th at 1:30am!
 
 
-
+![Paths](paths.png?raw=true "Paths")
 ![Spirograph Diagram](spiro_diag.png?raw=true "Spirograph Diagram")
 ![Spirograph](jamie_spirograph.png?raw=true "Spirograph")
 
