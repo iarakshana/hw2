@@ -23,6 +23,8 @@ There is a 'skeleton' for each of these, in the assignment that you've checked o
 Just make sure it's in before Wednesday October 12th at 1:30am!
 
 
+
+![Spirograph Diagram](spiro_diag.png?raw=true "Spirograph Diagram")
 ![Spirograph](jamie_spirograph.png?raw=true "Spirograph")
 
 
