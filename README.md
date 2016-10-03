@@ -16,7 +16,8 @@ There is a 'skeleton' for each of these, in the assignment that you've checked o
    2. n → 3n + 1 (for odd n)
  
    Using this rule, for 13, we get: 13 → 40 → 20 → 10 → 5 → 16 → 8 → 4 → 2 → 1.
-   It is believed that the sequence ends at 1, for all numbers.  What is the longest Collatz sequence that _starts_ below 2 million?
+   It is believed that the sequence ends at 1, for all numbers.  What is the longest Collatz sequence that _starts_ below 2 million?</br>
+   Bonus: Use precomputation and recursive functional calls.
 8. Make a Spirograph with turtles.  In a spirograph, a disks rolls of radius _r_ around the inside of a larger ring of radius _R_ without slipping.  The center of that disk thus describes yet another circle, of radius _R - r_.  By sticking a marker through a hole in the disk, one can draw pretty patterns.  (Look for a youtube video if this doesn't make sense, or isn't familiar.)  The critical point is this: if _ω_ is the rate at which the disk proceeds around the center of the ring, then the disk _itself_ rotates at a rate _-ω(R-r)/r_ times the rate.  Create a function that uses turtles to emulate a spirograph; then call that function several times to make something pretty.  
    1. Visit the [turtles documentation](https://docs.python.org/3.5/library/turtle.html) for the possible commands.  
    2. Start by drawing a circle with turtle _A_.
