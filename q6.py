@@ -4,11 +4,6 @@
 # solution when the script is done.
 solution = 0
 
-# create a function that returns
-# the next value in the collatz sequence.
-# If you call it recursively, keep track of the depth.
-
-# now loop up to 2 million, 
-# using that function
-
+# Your code goes here.
+# Should be < 10 lines.
 
