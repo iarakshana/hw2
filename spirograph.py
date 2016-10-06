@@ -43,7 +43,8 @@ def spirograph(ring_rad = 300, disk_rad = 125, hole_rad = 100):
   for loop in range(nloops):
     for step in range(nsteps):
 
-      # Turle a should performe one circle every loop.
+      # Turtle 'a' should complete one circle every loop.
+      # In other workds, 360 degrees, in nsteps.
       # Use fd/bk/left/right  commands to achieve that.
   
       # keep track of the angular position, th, of the large circle.
