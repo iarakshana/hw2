@@ -1,4 +1,4 @@
-# Python and Turtles
+# Python 
 
 You can join this assignment, [here](https://classroom.github.com/assignment-invitations/39f415bb7b155b439c113add0f03f21c).  It is due October 12 at 1:30am.
 
@@ -19,22 +19,6 @@ There is a 'skeleton' for each of these, in the assignment that you've checked o
    Using this rule, for 13, we get: 13 → 40 → 20 → 10 → 5 → 16 → 8 → 4 → 2 → 1.
    It is believed that the sequence ends at 1, for all numbers.  What is the longest Collatz sequence that _starts_ below 2 million?</br>
    Bonus: Use precomputation and recursive functional calls.
-8. Make a Spirograph with turtles.  In a spirograph, a disks rolls of radius _r_ around the inside of a larger ring of radius _R_ without slipping.  The center of that disk thus describes yet another circle, of radius _R - r_.  By sticking a marker through a hole in the disk, one can draw pretty patterns.  (Look for a youtube video if this doesn't make sense, or isn't familiar.)  The critical point is this: if _ω_ is the rate at which the disk proceeds around the center of the ring, then the disk _itself_ rotates at a rate _-ω(R-r)/r_ times the rate.  Create a function that uses turtles to emulate a spirograph; then call that function several times to make something pretty.  
-   1. Visit the [turtles documentation](https://docs.python.org/3.5/library/turtle.html) for the possible commands.  
-   2. Start by drawing a circle with turtle _A_.
-   3. Next, ask turtle _B_ to proceed in a smaller circle around turtle _A_.  Start by retrieving _A_'s position.  Then calculate the appropriate location for _B_ to head to, using the _-(R-r)/r_ ratio, and go to that location.  As a reminder, if the distance from the center is _d_, the circles will be _x<sub>B</sub> = x<sub>A</sub> + d × cos(-θ * (R - r)/r)_, and the _y_ coordinate will be similar except with a sine.
-   4. Call your complete spirograph several times, to make pretty spirographs!  There is a line at the end of your skeleton, for saving the images.
-   5. As (optional) extensions, you could:
-     1. Figure out how many loops around the big ring the disk has to make, before it starts repeating itself.
-     2. Make a shading function, so that the colors shift either over time or as a function of the location or direction of the turtle.
-     3. Do the math to figure out where the _(R-r)/r_ factor comes from.
-
-Just make sure it's in before Wednesday October 12th at 1:30am!
-
-
-![Paths](paths.png?raw=true "Paths")
-![Spirograph Diagram](spiro_diag.png?raw=true "Spirograph Diagram")
-![Spirograph](jamie_spirograph.png?raw=true "Spirograph")
 
 
 
