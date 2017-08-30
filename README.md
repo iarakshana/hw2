@@ -20,7 +20,7 @@ There is a 'skeleton' for each of these, in the assignment that you've checked o
    It is believed that the sequence ends at 1, for all numbers.  What is the longest Collatz sequence that _starts_ below 2 million?</br>
    Bonus: Use precomputation and recursive functional calls.
 
-
+![Paths](paths.png?raw=true "Paths")
 
 Here is the 1000-digit number, for exercise 4.
 > `1334689116556462941882035808943573171674164401363769460864490234588978262666944913475783756741523897`
