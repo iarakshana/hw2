@@ -3,7 +3,12 @@
 You can join this assignment, [here](https://classroom.github.com/assignment-invitations/39f415bb7b155b439c113add0f03f21c).  It is due October 12 at 1:30am.
 
 ### Excitement and Exercises!
-There is a 'skeleton' for each of these, in the assignment that you've checked out.  The first five answers are also there, so that you can check your work.  It's just up to you to calculate those answers.  Fill your code into the existing files, as indicated.
+There is a 'skeleton' for each of these, in the assignment that you've checked out.
+The answers are also there, so that you can check your work.
+Fill your code into the existing files, as indicated.
+
+When you are done, go to Canvas and take the [quiz]().
+You will have to make small modifications of your code on the fly.
 
 1. Find the 9th positive integer that is a multiple of 4, 13, 14, 26, and 50. ()
 2. Fibonacci numbers are defined by adding the previous two terms.  Starting with 1 and 1, that gives 1, 1, 2, 3, 5, 8, etc.  Find the sum of all Fibonnacci numbers divisible by 17 and below 1 billion.  (`while` and `if`, and `%`)
@@ -19,10 +24,18 @@ There is a 'skeleton' for each of these, in the assignment that you've checked o
 7. **Challenge:** A Collatz sequence is defined by:
    1. n → n/2 (for even n)
    2. n → 3n + 1 (for odd n)
- 
    Using this rule, for 13, we get: 13 → 40 → 20 → 10 → 5 → 16 → 8 → 4 → 2 → 1.
+   Successive links in a Collatz sequence can be expressed in python by the _function_, 
+   ```
+   def collatz(n):
+     if n%2: return 3*n + 1
+     else:   return int(n/2)
+
+   link = collatz(link)
+   ```
+
    It is believed that the sequence ends at 1, for all numbers.  What is the longest Collatz sequence that _starts_ below 2 million?</br>
-   Bonus: Use precomputation and recursive functional calls.
+   Double bonus: Use precomputation and recursive functional calls.
 
 ![Paths](paths.png?raw=true "Paths")
 

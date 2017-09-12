@@ -4,10 +4,10 @@
 # solution when the script is done.
 solution = 0
 
-# You _could_ use here the square root function, sqrt.
+# You coulduse here the square root function, sqrt.
 # It returns a floating point value
 # sqrt(9) -> 3.0 but sqrt(10) -> 3.162...
-# Note that you don't _need_ the square root.
+# But... you don't need it!
 from math import sqrt
 
 # Your code goes here.

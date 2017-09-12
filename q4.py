@@ -5,14 +5,16 @@ long_number = '''133468911655646294188203580894357317167416440136376946086449023
 # The 'solution' variable should hold the
 # solution when the script is done.
 solution = 0
+length   = 12
 
 # Your code goes here.
 
 # I would start with a for loop over all the possible slices.
-# That will be 1000 - 12 + 1
+# That will be 1000 - length + 1
 
 
 # Check for the correct answer.
-print("#4 : Consecutive Product ::", "Correct." if solution == 2257403904 else ("Wrong: " + str(solution)))
+if length == 12:
+  print("#4 : Consecutive Product ::", "Correct." if solution == 2257403904 else ("Wrong: " + str(solution)))
 
 
