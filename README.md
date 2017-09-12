@@ -12,7 +12,7 @@ Check your repository online to see that the push was successful.
 
 Remember that you will be graded on correctness, style, and commenting.
 
-When you are done, go to Canvas and take very short [quiz]().
+When you are done, go to Canvas and take this very short [quiz]().
 You will have to make small modifications of your code on the fly.
 
 1. Find the 9th positive integer that is a multiple of 4, 13, 14, 26, and 50.
