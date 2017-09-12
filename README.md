@@ -6,11 +6,15 @@ You can join this assignment, [here](https://classroom.github.com/assignment-inv
 There is a 'skeleton' for each of these, in the assignment that you've checked out.
 The answers are also there, so that you can check your work.
 Fill your code into the existing files, as indicated.
+You can run `./hw2_test.py` to check the whole thing.
+If everything passes.  Commit your code.
 
-When you are done, go to Canvas and take the [quiz]().
+Remember that you will be graded on correctness, style, and commenting.
+
+When you are done, go to Canvas and take very short [quiz]().
 You will have to make small modifications of your code on the fly.
 
-1. Find the 9th positive integer that is a multiple of 4, 13, 14, 26, and 50. ()
+1. Find the 9th positive integer that is a multiple of 4, 13, 14, 26, and 50.
 2. Fibonacci numbers are defined by adding the previous two terms.  Starting with 1 and 1, that gives 1, 1, 2, 3, 5, 8, etc.  Find the sum of all Fibonnacci numbers divisible by 17 and below 1 billion.  (`while` and `if`, and `%`)
 3. The number 175832868806 has no prime factors above 300.  Count the unique prime factors.  (Hint: first make a list of all the primes up to 300.  How would you express a prime in python?)
 4. There is a 1000-digit number, below.  If you multiply five consecutive digits, the largest value you can find is 9 × 5 × 9 × 9 × 9 = 32805.  Multiplying 12 consecutive digits, what is the largest product you can find?
