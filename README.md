@@ -7,7 +7,8 @@ There is a 'skeleton' for each of these, in the assignment that you've checked o
 The answers are also there, so that you can check your work.
 Fill your code into the existing files, as indicated.
 You can run `./hw2_test.py` to check the whole thing.
-If everything passes.  Commit your code.
+If everything passes, commit your code (git add, commit, push).
+Check your repository online to see that the push was successful.
 
 Remember that you will be graded on correctness, style, and commenting.
 
