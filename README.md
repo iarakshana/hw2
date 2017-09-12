@@ -15,6 +15,8 @@ Remember that you will be graded on correctness, style, and commenting.
 When you are done, go to Canvas and take this very short [quiz]().
 You will have to make small modifications of your code on the fly.
 
+**Important:** please commit the version of the code **without** the modifications used for the quiz.  In other words, change it back, or commit before the quiz!
+
 1. Find the 9th positive integer that is a multiple of 4, 13, 14, 26, and 50.
 2. Fibonacci numbers are defined by adding the previous two terms.  Starting with 1 and 1, that gives 1, 1, 2, 3, 5, 8, etc.  Find the sum of all Fibonnacci numbers divisible by 17 and below 1 billion.  (`while` and `if`, and `%`)
 3. The number 175832868806 has no prime factors above 300.  Count the unique prime factors.  (Hint: first make a list of all the primes up to 300.  How would you express a prime in python?)
