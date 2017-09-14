@@ -1,6 +1,6 @@
 # Homework 2: Python 
 
-You can join this assignment, [here](https://classroom.github.com/assignment-invitations/39f415bb7b155b439c113add0f03f21c).  It is due October 12 at 1:30am.
+You can join this assignment, [here](https://classroom.github.com/assignment-invitations/39f415bb7b155b439c113add0f03f21c).  It is due Wednesday October 11 at 1:30am.
 
 ### Excitement and Exercises!
 There is a 'skeleton' for each of these, in the assignment that you've checked out.
