@@ -24,7 +24,7 @@ You will have to make small modifications of your code on the fly.
 5. Pythagorean triples have the property _a² + b² = c²_.
    For instance the familiar 3, 4, 5 triangle has 3² + 4² = 9 + 16 = 25 = 5².
    There is one pythagorean triple for which _a + b + c_ = 1000.  Find the product _a × b × c_.
-6. In the 2×2 grid shown below, the shortest path between two opposite corners is four units long.
+6. **Challenge:** In the 2×2 grid shown below, the shortest path between two opposite corners is four units long.
    There are six options for such a path (see below).  For a 100×100 grid, the shortest path is 200 units long.  How many such paths are there? </br>
    Hints: What is necessary for a path to be a "shortest path"?
    Alternative hint: use `import math`.
