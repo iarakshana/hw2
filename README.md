@@ -12,7 +12,7 @@ Check your repository online to see that the push was successful.
 
 Remember that you will be graded on correctness, style, and commenting.
 
-When you are done, go to Canvas and take this very short [quiz]().
+When you are done, go to Canvas and take the very short quiz.
 You will have to make small modifications of your code on the fly.
 
 **Important:** please commit the version of the code **without** the modifications used for the quiz.  In other words, change it back, or commit before the quiz!
