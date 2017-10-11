@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-
+max_start == 2000000
 # The 'solution' variable should hold the
 # solution when the script is done.
 def collatz(n): #We add a count to the function definition in the question so that when n is greater than 1, we add 1 to each count
