@@ -1,28 +1,30 @@
-#!/usr/bin/env python 
+#!/usr/bin/env python
 
 # The 'solution' variable should hold the
 # solution when the script is done.
-solution = 0
-max_start = 2000000
+def collatz(n): #We add a count to the function definition in the question so that when n is greater than 1, we add 1 to each count
+    count = 0
+    while n>1:
+        count += 1
+        if n %2 == 0:
+            n = n/2
+        else:
+            n = (3*n) + 1
+    return count
 
-# Your code goes here.
-# Should be < 10 lines.
+def get_max_collatz(max_num):#We define another function to get the max that counts the max number in our range of 2000000
+    counts = [0]*max_num
+    for i in range(max_num):
+        counts[i] = collatz(i+1) # this keeps going until we reach 1 we require in the collatz function
 
-# create a function that returns
-# the next value in the collatz sequence.
-def collatz(n):
-  if n%2: return 3*n + 1
-  else:   return int(n/2)
+    max_count = max(counts)
+    max_val = counts.index(max_count) + 1
 
-# now loop up to 2 million, 
-# tracking the longest sequence
+    return max_val
 
-# Double bonus: precompute!
-# If you reach 13, for instance, you're always 9 steps from the end, 
-# and you don't need to calculate it all over again.
+get_max_collatz(2000000)
+solution = get_max_collatz(2000000) #Please note that it takes quite a long time for this code to run
+print(solution)
 
-# Check for the correct answer.
 if max_start == 2000000:
   print("#7 : Collatz Sequence ::", "Correct." if solution == 1723519 else ("Wrong: " + str(solution)))
-
-
